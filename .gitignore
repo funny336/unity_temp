@@ -35,8 +35,8 @@ Packages/packages-lock.json
 *.apk
 *.aab
 *.unitypackage
-*.exe
-*.dll
+# *.exe
+# *.dll
 *.so
 *.dylib
 
