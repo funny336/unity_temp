@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
+# 基础配置：自动检测文本/二进制
 * text=auto
+
+# Unity 二进制文件：强制标记为二进制
+*.unity binary
+*.prefab binary
+*.asset binary
+*.meta binary
+*.dll binary
+*.so binary
+*.png binary
+*.fbx binary
+
+# Unity 文本文件：强制使用 LF
+*.cs text eol=lf
+*.shader text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.xml text eol=lf
+
+# 系统脚本：按平台指定换行符
+*.bat text eol=crlf
+*.sh text eol=lf

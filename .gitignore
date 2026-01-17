@@ -1,0 +1,46 @@
+# Unity 自动生成的核心文件夹（必须忽略）
+Library/
+Temp/
+Obj/
+Logs/
+UserSettings/
+Build/
+Builds/
+DerivedDataCache/
+StreamingAssets/Plugins/WebGL/
+StreamingAssets/Plugins/Android/
+
+# 包管理相关（可选忽略）
+Packages/packages-lock.json
+
+# 编辑器配置
+.vs/
+.vscode/
+.idea/
+*.sln
+*.csproj
+*.unityproj
+*.svd
+*.userprefs
+*.pidb
+*.booproj
+*.svn
+*.DS_Store  # macOS 系统文件
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# 构建产物
+*.apk
+*.aab
+*.unitypackage
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 其他临时文件
+*.tmp
+*.bak
+*.swp
